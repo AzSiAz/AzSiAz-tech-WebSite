@@ -1,0 +1,26 @@
+{
+  "name": "azsiaz-tech-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzSiAz/AzSiAz-tech-WebSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzSiAz/AzSiAz-tech-WebSite/issues"
+  },
+  "homepage": "https://github.com/AzSiAz/AzSiAz-tech-WebSite#readme",
+  "dependencies": {
+    "next": "^4.1.4",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  }
+}
