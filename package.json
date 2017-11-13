@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon -w server -w server.js server.js",
     "build": "next build",
     "start": "next start"
   },
@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/AzSiAz/AzSiAz-tech-WebSite#readme",
   "dependencies": {
+    "chokidar": "^1.7.0",
+    "isomorphic-fetch": "^2.2.1",
     "next": "^4.1.4",
     "react": "^16.1.0",
-    "react-dom": "^16.1.0"
+    "react-dom": "^16.1.0",
+    "scrape-it": "^4.0.0",
+    "server": "^1.0.4"
   }
 }
